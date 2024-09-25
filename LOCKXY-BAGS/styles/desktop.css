@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
+}
+
+/* NAVIGATION SECTION  */
+#logoSection{
+    width: 100%;
+    background-color: #692340;
+    height: 60px;
+
+}
+.logo{
+    float: left;
+    padding: 10px ;
+    margin-left: 50px;
+}
+.logo_img{
+    height: 40;
+    width: 60;
+}
+.dot_3{
+    display: none;
+}
+.sideicones {
+    height: 25px;
+    margin-top: 20PX;
+    margin-right:  100px;
+    float: right;   
+}
+#menuSection{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+.mainNavMenu{
+    width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    font-family: inter;
+    font-weight: bold;
+    display: block;
+}
+.mainNavMenu li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 100px;
+}
+.mainNavMenu li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+     /* BODY SECTION 1 */
+
+#bodySection_1{
+    height: 600px;
+}
+.bodyBox1{
+    float:left;
+    padding:90px;
+    margin-left: 56px;
+}
+.brown_bag{
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+}
+.bodyBox2{
+    float: left;
+    padding:90px;
+    margin-left: 36px;
+    margin-top: -6px;
+    font-family: inter;
+}
+.bodyBox3{
+    padding:90px;
+    float:left;
+    margin-left: 56px;
+    margin-top: 3px;
+    display: block;
+}
+.bag:hover{
+    transform: scale(1.1,1.1);
+}
+.text1{
+    text-align: center;
+    color: #692340;
+    font-size: 20px;
+}
+.text2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+}
+
+/* BODY SECTION  */
+#bodySection_2{
+    background-color: #FCDAE8;
+    clear: both;
+    height: 1060px;
+}
+#title2{
+    font-size: 2.5em;
+    width:100%;
+    text-align: center;
+    padding-top: 15px;
+    height: 70px;
+    color: #692340;
+}
+.sideimg{
+    float:left;
+    margin-left: 170px;
+}
+.side_banner{
+    height: 870px;
+}
+.bag{
+    width: 250px;
+    border-radius: 30px;
+    margin-top: -10px;
+}
+.hbag1{
+    float: left;
+    margin-left: 150px;
+    font-family: inter;
+}
+.text4{
+    font-size: 20px;
+    color: #692340;
+    line-height: 28px;
+}
+.hbag1 .text4{
+    position: relative;
+    margin-top: 10px;
+}
+.rating{
+    margin-left: 130px;
+    position:absolute;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+/* FOOTER SECTION  */
+
+#footerSection1{
+    width: 100%;
+    height: 610px;
+    background-color: rgb(0, 0, 0);
+    font-family: inter;
+    font-weight: bold;
+}
+.lockxy{
+    margin-top: 30px;
+    margin-left: 590px;
+    width: 300px;
+    height: 98px;
+}
+.ficons1{
+    float: left;
+}
+.truck{
+    margin-left: 250px;
+    margin-top: 43px;
+    width: 80px;
+    height: 45px;
+}
+.truckText{
+    margin-left: 228px;
+    font-size: larger;
+    color: #CC487F;
+}
+.truckText1{
+    margin-left: 155px;
+    color: #FBBBD5;
+}
+.ficons2{
+    float: left;
+}
+.payment{
+    margin-left: 310px;
+    margin-top: 43px;
+}
+.paymentText{
+    margin-left: 280px;
+    font-size: larger;
+    color: #CC487F;
+}
+.paymentText1{
+    margin-left: 220px;
+    color: #FBBBD5;
+}
+.ficons3{
+    float: left;
+}
+hr{
+    display: block;
+}
+.customer{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.customerText{
+    margin-left: 250px;
+    font-size: larger;
+    color: #CC487F;
+    margin-top: 2px;
+}
+.customerText1{
+    margin-left: 245px;
+    color: #FBBBD5;
+}
+.quick{
+    float: left;
+}
+.quick1{
+    font-size: larger;
+    margin-left: 680px;
+    margin-top: 28px;
+    color: #CC487F;
+}
+.quick2{
+    margin-left: 550px;
+    margin-top: 28px;
+    color: #FBBBD5;
+}
+.follow1{
+    font-size: larger;
+    color: #CC487F;
+    margin-left: 680px;
+    margin-top: 25px;
+}
+.face_img1{
+    margin-left: 478px;
+    margin-top: 10px;
+    width: 30px;
+}.face_img2{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 30px;
+}.face_img3{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 30px;
+}
+.copy{
+    background-color: #692340;
+    height: 55px;
+    color: white;
+}
+.copy_text{
+    margin-left: 648px;
+    padding-top: 18px;
+}

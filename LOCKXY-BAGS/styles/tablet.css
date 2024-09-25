@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
+}
+
+   /* NAVIGATION SECTION  */
+
+#logoSection{
+    width: 100%;
+    background-color: #692340;
+    height: 80px;
+}
+.logo{
+    float: left;
+    padding: 10px ;
+    margin-left: 50px;
+}
+.logo_img{
+    height: 60;
+    width: 90;
+}
+.sideicones {
+    height: 35px;
+    margin-top: 23PX;
+    margin-right:  200px;
+    float: right;   
+}
+.dot_3{
+    width: 45px;
+    float: right;
+    margin-right: -300px;
+    margin-top: 20px;
+}
+#menuSection{
+    width: 100%;
+    margin: 0 auto;
+}
+.mainNavMenu{
+    width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    font-family: inter;
+    font-weight: bold;
+    display: none;
+}
+.mainNavMenu li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 100px;
+}
+.mainNavMenu li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+/* BODY SECTION 1 */
+
+#bodySection_1{
+    height: 600px;
+}
+.bodyBox1{
+    float:left;
+    padding:90px;
+    margin-left: 50px;
+}
+.brown_bag{
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+}
+.bodyBox2{
+    float: left;
+    margin-left: 30px;
+    font-family: inter;
+    margin-top: 50px;
+}
+.bodyBox3{
+    padding:90px;
+    float:left;
+    margin-left: 300px;
+    margin-top: -70px;
+    display: block;
+}
+.bag:hover{
+    transform: scale(1.1,1.1);
+}
+.brown_bag:hover{
+    transform: scale(1.1,1.1);
+}
+.text1{
+    text-align: center;
+    color: #692340;
+    font-size: 20px;
+}
+.text2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+}
+
+    /* body section 2 */
+
+#bodySection_2{
+    background-color: #FCDAE8;
+    clear: both;
+    height: 2670px;
+}
+#title2{
+    font-size: 2.5em;
+    width:100%;
+    text-align: center;
+    padding-top: 35px;
+    height: 70px;
+    color: #692340;
+}
+.sideimg{
+    float:left;
+    margin-left: 170px;
+}
+.side_banner{
+    height: 1400px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.bag{
+    width: 280px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.hbag1{
+    float: left;
+    margin-left: 200px;
+    font-family: inter;
+}
+.text4{
+    font-size: 28px;
+    color: #692340;
+    line-height: 28px;
+}
+.hbag1 .text4{
+    position: relative;
+    margin-top: 15px;
+}
+.rating{
+    margin-left: 140px;
+    position:absolute;
+    margin-top: 10px;
+    width: 78px;
+    height: 40px;
+}
+
+    /* FOOTER SECTION  */
+
+#footerSection1{
+    width: 100%;
+    height: 470px;
+    background-color: rgb(0, 0, 0);
+    font-family: inter;
+    font-weight: bold;
+}
+.lockxy{
+    margin-top: 20px;
+    margin-left: 360px;
+    width: 300px;
+    height: 98px;
+}
+.ficons1{
+    float: left;
+}
+.truck{
+    margin-left: 120px;
+    margin-top: 45px;
+    width: 80px;
+}
+.truckText{
+    margin-left: 100px;
+    font-size: larger;
+    color: #CC487F;
+}
+.truckText1{
+    margin-left: 35px;
+    color: #FBBBD5;
+    font-size: 14;
+}
+.ficons2{
+    float: left;
+}
+.payment{
+    margin-left: 180px;
+    margin-top: 43px;
+    width: 80px;
+}
+.paymentText{
+    margin-left: 140px;
+    margin-top: 4px;
+    font-size: larger;
+    color: #CC487F;
+}
+.paymentText1{
+    margin-left: 78px;
+    color: #FBBBD5;
+    font-size: 14px;
+}
+hr{
+    display: none;
+}
+.ficons3{
+    float: left;
+}
+.customer{
+    margin-left: 770px;
+    margin-top: -90px;
+    width: 80px;
+}
+.customerText{
+    margin-left: 715px;
+    font-size: larger;
+    color: #CC487F;
+    margin-top: -38;
+}
+.customerText1{
+    margin-left: 710px;
+    color: #FBBBD5;
+    margin-top: -4px;
+    font-size: 14px;
+}
+.quick{
+    float: left;
+}
+.quick1{
+    font-size: larger;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: #CC487F;
+}
+.quick2{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #FBBBD5;
+    font-size: 14px;
+}
+.follow1{
+    font-size: larger;
+    color: #CC487F;
+    margin-left: 685px;
+    margin-top: -108px;
+}
+.face_img1{
+    padding-left: 190px;
+    margin-top: 10px;
+    width: 30px;
+}
+.face_img2{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 30px;
+}
+.face_img3{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 30px;
+}
+.copy{
+    background-color: #692340;
+    height: 70px;
+    color: white;
+}
+.copy_text{
+    margin-left: 430px;
+    padding-top: 25px;
+}
